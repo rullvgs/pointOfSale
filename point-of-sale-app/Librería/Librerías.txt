@@ -1,0 +1,96 @@
+import sqlite3
+import tkinter
+from tkinter import messagebox as msg
+# Login_App
+import tkinter as tk
+from tkinter import ttk
+import BD_Login
+import bcrypt
+from tkinter import messagebox as msg
+# Main_Menu	
+import tkinter as tk
+from tkinter import ttk
+from Registro_App import registro_App
+from Login_App import loginApp
+from Menu_Principal import menu_Principal
+from Password_Get import recuperar_contraseña
+# Menu_Principal
+import tkinter as tk
+from tkinter import ttk
+from Registro_de_ventas import registro_ventas
+from Registro_de_Egresos import registro_egresos
+from Tabla_de_Ingresos import tabla_ventas
+from Tabla_de_Egresos import tabla_egresos
+from Perfil_Usuario import perfil
+import tkinter.font as Font
+from tkinter import messagebox as msg
+from PIL import Image, ImageTk
+#Password_Get.py
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox as msg
+import BD_Login
+import bcrypt
+# Perfil_Usuario
+import tkinter as tk
+from tkinter import ttk
+import BD_Login
+from tkinter import messagebox as msg
+import bcrypt
+import tkinter.font as Font
+from validate_email import validate_email
+# Registro_App
+import tkinter as tk
+from tkinter import ttk
+import bcrypt
+import BD_Login
+from tkinter import messagebox as msg
+from validate_email import validate_email
+# Registro_de_Egresos
+import tkinter as tk
+from tkinter import ttk
+from tkcalendar import DateEntry
+from tkinter import simpledialog
+import BD_Login
+from tkinter import messagebox as msg
+from tips_app import Tooltip
+from datetime import datetime
+from tkinter import Label
+from PIL import ImageGrab
+# Registro de ventas
+import tkinter as tk
+from tkinter import ttk
+from tkcalendar import DateEntry
+from tkinter import simpledialog
+import BD_Login
+from tips_app import Tooltip
+from datetime import datetime
+from tkcalendar import Calendar
+from tkinter import messagebox as msg
+from tkinter import Label
+from PIL import ImageGrab
+# Tabla_de_Egresos
+import tkinter as tk
+import BD_Login
+from tkinter import ttk, filedialog
+from datetime import datetime
+import BD_Login
+from openpyxl import Workbook
+import tips_app as Tooltip
+# Tabla_de_ingresos.py
+import tkinter as tk
+from tkinter import ttk, filedialog
+from datetime import datetime
+import BD_Login
+from openpyxl import Workbook
+import tkinter as tk
+from tkinter import ttk 
+
+
+
+Librería	Código de instalación
+bcrypt	pip install bcrypt
+PIL	pip install Pillow
+validate_email	pip install validate_email
+tkcalendar	pip install tkcalendar
+openpyxl	pip install openpyxl
